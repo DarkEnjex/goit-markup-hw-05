@@ -621,12 +621,15 @@ span {
     border-radius: 4px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     padding: 8px 16px;
+    background-color: transparent;
 }
 
 .footer-email-btn {
     display: flex;
     flex-direction: row;
     align-self: flex-end;
+    align-items: center;
+    justify-content: center;
     border-radius: 4px;
     padding: 8px 24px;
     background: #4d5ae5;
