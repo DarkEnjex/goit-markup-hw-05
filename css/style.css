@@ -41,6 +41,14 @@ button {
     cursor: pointer;
 }
 
+input {
+    font-family: inherit;
+}
+
+textarea {
+    resize: none;
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -55,8 +63,8 @@ button {
 }
 
 .container {
-    /* max-width: 1158px; */
-    width: 1158px;
+    max-width: 1158px;
+    /* width: 1158px; */
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -194,7 +202,7 @@ span {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    max-width: 1440px;
+    /* max-width: 1440px; */
 }
 
 .solutions-wrap {
@@ -582,4 +590,55 @@ span {
 .footer-icons-link:hover,
 .footer-icons-link:focus {
     background-color: #31D0AA;
+}
+
+.foot-email-cont {
+    margin-right: 120px;
+}
+
+.footer-email {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    /* padding: 8px 24px; */
+    max-width: 246px;
+    /* max-height: 40px; */
+}
+
+.footer-email-label {
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    gap: 16px;
+}
+
+.footer-email-input {
+    border: 1px solid #fff;
+    border-radius: 4px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    padding: 8px 16px;
+}
+
+.footer-email-btn {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    border-radius: 4px;
+    padding: 8px 24px;
+    background: #4d5ae5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #fff;
+    gap: 16px;
+}
+
+.footer-email-icon {
+    fill: #fff;
 }
