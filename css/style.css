@@ -807,6 +807,8 @@ span {
     border: 1px solid rgba(46, 47, 66, 0.4);
 }
 
+
+
 .modal-filed-check {
     margin-bottom: 24px;
 }
@@ -819,6 +821,8 @@ span {
     letter-spacing: 0.04em;
     color: #8e8f99;
 }
+
+
 
 .modal-check-sp {
     display: inline-flex;
@@ -839,6 +843,8 @@ span {
     text-decoration-skip-ink: none;
     color: #4d5ae5;
 }
+
+
 
 .modal-check:checked+.modal-check-text span {
     background-color: #404BBF;
@@ -877,6 +883,8 @@ span {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5; */
 }
+
+
 
 /* .modal-btn:focus,
 .modal-btn:hover {
