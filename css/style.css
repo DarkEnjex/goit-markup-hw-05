@@ -807,12 +807,16 @@ span {
 }
 
 
+.modal-textarea:focus {
+    border-color: #4D5AE5;
+}
+
 .modal-filed-check {
     margin-bottom: 24px;
 }
 
 .modal-check-text {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     font-size: 12px;
     line-height: 1.17;
@@ -823,7 +827,6 @@ span {
 
 
 .modal-check-sp {
-    display: inline-block;
     align-items: center;
     justify-content: center;
     position: relative;
